@@ -1,0 +1,62 @@
+﻿@model ProvaTecnica3.Models.Emprestimo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Emprestimo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorEmprestimo" class="control-label"></label>
+                <input asp-for="ValorEmprestimo" class="form-control" />
+                <span asp-validation-for="ValorEmprestimo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Juros" class="control-label"></label>
+                <input asp-for="Juros" class="form-control" />
+                <span asp-validation-for="Juros" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QtdParcelas" class="control-label"></label>
+                <input asp-for="QtdParcelas" class="form-control" />
+                <span asp-validation-for="QtdParcelas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorParcela" class="control-label"></label>
+                <input asp-for="ValorParcela" class="form-control" />
+                <span asp-validation-for="ValorParcela" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="JurosPago" class="control-label"></label>
+                <input asp-for="JurosPago" class="form-control" />
+                <span asp-validation-for="JurosPago" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsPago" /> @Html.DisplayNameFor(model => model.IsPago)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
