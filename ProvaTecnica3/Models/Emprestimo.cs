@@ -12,19 +12,22 @@ namespace ProvaTecnica3.Models
         public Cliente? Clientes { get; set; }
         public int ClienteId { get; set; }
 
-        [Display(Name = "Valor do Emprestimo")]
+        [Display(Name = "Valor Emprestimo")]
         public double ValorEmprestimo { get; set; }
 
-        [Display(Name = "Juros (%)")]
+        [Display(Name = "Juros(%)")]
         public double Juros { get; set; }
 
-        [Display(Name = "Quantidade de Parcelas")]
+        [Display(Name = "Quantidade Parcelas")]
         public int QtdParcelas { get; set; }
 
-        [Display(Name = "Valor das Parcelas")]
+        [Display(Name = "Valor Parcelas")]
         public double ValorParcela { get; set; }
 
-        [Display(Name = "Valor Total Atual")]
+        [Display(Name = "Qtd Parcelas pagas")]
+        public double QtdParcelaspagas { get; set; }
+
+        [Display(Name = "Valor Atual")]
         public double JurosPago { get; set; }
 
         [Display(Name = "Pago")]

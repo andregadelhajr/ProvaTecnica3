@@ -57,7 +57,7 @@ namespace ProvaTecnica3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EmprestimoId,ClienteId,ValorEmprestimo,Juros,QtdParcelas,ValorParcela,JurosPago,IsPago")] Emprestimo emprestimo)
+        public async Task<IActionResult> Create([Bind("EmprestimoId,ClienteId,ValorEmprestimo,Juros,QtdParcelas,ValorParcela,QtdParcelaspagas,JurosPago,IsPago")] Emprestimo emprestimo)
         {
             if (ModelState.IsValid)
             {
@@ -91,7 +91,7 @@ namespace ProvaTecnica3.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("EmprestimoId,ClienteId,ValorEmprestimo,Juros,QtdParcelas,ValorParcela,JurosPago,IsPago")] Emprestimo emprestimo)
+        public async Task<IActionResult> Edit(int id, [Bind("EmprestimoId,ClienteId,ValorEmprestimo,Juros,QtdParcelas,ValorParcela,QtdParcelaspagas,JurosPago,IsPago")] Emprestimo emprestimo)
         {
             if (id != emprestimo.EmprestimoId)
             {

@@ -7,7 +7,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-secondary">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -28,6 +28,9 @@
                 @Html.DisplayNameFor(model => model.ValorParcela)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.QtdParcelaspagas)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.JurosPago)
             </th>
             <th>
@@ -38,6 +41,9 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+            item.JurosPago = item.JurosPago - (item.ValorParcela * item.QtdParcelaspagas);
+            item.ValorParcela = (item.ValorParcela * (1+(item.Juros / 100)));
+
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Clientes.CPF)
@@ -55,15 +61,18 @@
                 @Html.DisplayFor(modelItem => item.ValorParcela)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.QtdParcelaspagas)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.JurosPago)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsPago)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.EmprestimoId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.EmprestimoId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.EmprestimoId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.EmprestimoId" class="btn btn-success">Details</a> 
+                <a asp-action="Details" asp-route-id="@item.EmprestimoId" class="btn btn-warning">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.EmprestimoId" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }

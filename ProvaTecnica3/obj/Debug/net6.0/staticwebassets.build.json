@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JEolECTtGNOvXTaiC7FbD0QDx+q1M3S479aadlPhTB8=",
+  "Hash": "uD3I0xFUXT9uaeCWu6/kiHvREo32fQxEG142hTirtVk=",
   "Source": "ProvaTecnica3",
   "BasePath": "_content/ProvaTecnica3",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProvaTecnica3.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\Emprestimo.png",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "css/Emprestimo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Emprestimo.png"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\site.css",
