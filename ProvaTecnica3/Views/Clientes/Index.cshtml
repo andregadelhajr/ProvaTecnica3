@@ -7,9 +7,9 @@
 <h1>Cliente</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-secondary">Create New</a>
+    <a asp-action="Create" class="btn btn-secondary"><i class="fa fa-plus-circle "></i>Create New</a>
 </p>
-<table class="table">
+<table id = "TabelaCliente" class="table">
     <thead>
         <tr>
             <th>
@@ -55,11 +55,24 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ClienteId" class="btn btn-success">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ClienteId" class="btn btn-warning">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ClienteId" class="btn btn-danger">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.ClienteId" class="btn btn-success"><i class="fa fa-edit "></i></a> 
+                <a asp-action="Details" asp-route-id="@item.ClienteId" class="btn btn-warning"><i class="fa fa-search "></i></a> 
+                <a asp-action="Delete" asp-route-id="@item.ClienteId" class="btn btn-danger"><i class="fa fa-trash "></i></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function() {
+
+            $('#TabelaCliente').DataTable({
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
+                }
+            });
+        });
+    </script>
+}

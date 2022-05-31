@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uD3I0xFUXT9uaeCWu6/kiHvREo32fQxEG142hTirtVk=",
+  "Hash": "tcYiXs7pp8PpEWM5V8d/Br/Na6HYdb3vPNqDRUpqgRI=",
   "Source": "ProvaTecnica3",
   "BasePath": "_content/ProvaTecnica3",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProvaTecnica3.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\all.min.css",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "css/all.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\all.min.css"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\Emprestimo.png",
       "SourceId": "ProvaTecnica3",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Emprestimo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\fontawesome.min.css",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "css/fontawesome.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\fontawesome.min.css"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\css\\site.css",
@@ -102,6 +136,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\js\\all.min.js",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "js/all.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\all.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\js\\fontawesome.min.js",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "js/fontawesome.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\fontawesome.min.js"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\js\\site.js",
       "SourceId": "ProvaTecnica3",
       "SourceType": "Discovered",
@@ -117,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\js\\solid.min.css",
+      "SourceId": "ProvaTecnica3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\",
+      "BasePath": "_content/ProvaTecnica3",
+      "RelativePath": "js/solid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\solid.min.css"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\CastGroup\\ProjetosC#\\Prova Tecnica 3\\ProvaTecnica3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
